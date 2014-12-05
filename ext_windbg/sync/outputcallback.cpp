@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  Based on out.cpp from WinDDK's dumpstk sample
 */
 
-#include <dbgeng.h>
+#include "stdafx.h"
 #include "outputcallbacks.h"
 #include "sync.h"
 #include "tunnel.h"

@@ -17,12 +17,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <stdio.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <wincrypt.h>
-#include <strsafe.h>
-
+#include "stdafx.h"
 #include "sync.h"
 #include "tunnel.h"
 

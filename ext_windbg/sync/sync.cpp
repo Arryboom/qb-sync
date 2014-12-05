@@ -17,13 +17,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "stdafx.h"
 #include "sync.h"
 #include "tunnel.h"
 #include "outputcallbacks.h"
-
-#include <wincrypt.h>
-#include <strsafe.h>
-#include <shlwapi.h>
 
 #define VERBOSE 0
 #define MAX_NAME 1024
